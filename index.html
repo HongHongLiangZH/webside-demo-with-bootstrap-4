@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<!--2020/03/13 21.30~21.50 , 2020/03/16 11.45~12.55 20.00~21.45 ， 2020/03/17 13.15~16.45 19.30~21.00 , 2020/03/19 17.00~17.30-->
+
+<head>
+    <!--[if lt IE 9]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+
+		<script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
+		<script src="/js/html5shiv.min.js"></script>
+		<script src="/js/respond.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.placeholder.js"></script>
+	<![endif]-->
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap&subset=chinese-traditional"
+        rel="stylesheet">
+    <!------>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!--Import bootstrap.css-->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css" media="screen,projection" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+        </script>
+    <!------>
+    <title>台中市政府警察局</title>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-xl navbar-dark bg-dark">
+        <a class="navbar-brand mb-0 h1" href="/index.html">台中市政府警察局</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        視頻影像
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">即時影像</a>
+                        <a class="dropdown-item" href="#">歷史影像</a>
+                        <a class="dropdown-item" href="#">群組設定</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        設備巡修
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">快速巡修</a>
+                        <a class="dropdown-item" href="#">巡修統計</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        記錄查詢
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">妥善率查詢</a>
+                        <a class="dropdown-item" href="#">維修統計</a>
+                        <a class="dropdown-item" href="#">我的調閱記錄</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        系統服務
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">操作說明</a>
+                        <a class="dropdown-item" href="#">下載專區</a>
+                        <a class="dropdown-item" href="#">意見回饋</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">行車記錄</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">GIS圖控</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">管理後臺</a>
+                </li>
+            </ul>
+            <hr class="bg-white">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        你好，使用者
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#"><button type="button"
+                                class="btn btn-primary btn-block">設定</button></a>
+                        <a class="dropdown-item" href="#"><button type="button"
+                                class="btn btn-danger btn-block">登出</button></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container" style="margin-top: 80px;">
+        <div class="alert alert-danger" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h2 class="alert-heading">最新消息</h2>
+
+            <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit
+                longer so
+                that you can see how spacing within an alert works with this kind of content.</p>
+
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 align-self-center">
+                <h2 class="text-left ">系統公告</h2>
+            </div>
+            <div class="col-12 col-md-6">
+                <form class="form-inline justify-content-end">
+                    <div class="form-row align-items-center">
+                        <div class="col-auto">
+                            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">顯示</label>
+                        </div>
+                        <div class="col-auto">
+                            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                                <option selected value="10">10</option>
+                                <option value="20">20</option>
+                                <option value="50">50</option>
+                                <option value="100">100</option>
+                            </select>
+                        </div>
+                        <div class="col-auto">
+                            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">項結果</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div class="row justify-content-between">
+            <div class="col-auto">
+                <h2 class="text-left ">公告1標題</h2>
+            </div>
+            <div class="col-auto align-self-end">
+                <h6 class="text-right ">2020/03/17 15:30</h2>
+            </div>
+            <div class="col-12">
+                <p>公告1內容</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row justify-content-between">
+            <div class="col-auto">
+                <h2 class="text-left ">公告2標題</h2>
+            </div>
+            <div class="col-auto align-self-end">
+                <h6 class="text-right ">2020/03/17 15:30</h2>
+            </div>
+            <div class="col-12">
+                <p>公告2內容</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row justify-content-between">
+            <div class="col-auto">
+                <h2 class="text-left ">公告3標題</h2>
+            </div>
+            <div class="col-auto align-self-end">
+                <h6 class="text-right ">2020/03/17 15:30</h2>
+            </div>
+            <div class="col-12">
+                <p>公告3內容</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row justify-content-between">
+            <div class="col-12 col-md-6">
+                <h4 class="text-left ">顯示第 1 至 3 項結果，共 3 項</h4>
+            </div>
+            <div class="col-12 col-md-6 align-self-end">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-end">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                        </li>
+                        <li class="page-item active">
+                            <a class="page-link" href="#">
+                                1
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="page-footer bg-dark mt-auto py-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-dark">
+                <div class="container">
+                    <li class="breadcrumb-item active text-white" aria-current="page">首頁</li>
+                </div>
+            </ol>
+        </nav>
+        <div class="container">
+            <span class="text-white">平台服務電話: <a href="tel:0930-920-832"
+                    class="text-warning">0930-920-832</a></span>&nbsp&nbsp&nbsp
+            <span class="text-white">前端障礙申告: <a href="tel:04-2380-1110"
+                    class="text-warning">04-2380-1110</a></span>&nbsp&nbsp&nbsp
+            <span class="text-white">車行紀錄服務: <a href="tel:0936-385-320" class="text-warning">0936-385-320</a></span>
+            <br>
+            <br>
+            <br>
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <p class="text-white">Copyright © 2019 臺中市政府警察局. All rights reserved.</p>
+                </div>
+                <div class="col-auto">
+                    <p class="text-right text-white">Version 1.0.0.4</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
