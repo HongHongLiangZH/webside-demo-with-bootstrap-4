@@ -4,8 +4,8 @@
 
 ### BUG ###
 在ie10/11顯示時： 
-  1.navbar無法收回
-  2.dropdown無法使用
+1. navbar無法收回
+2. dropdown無法使用
 
 ### Demo網站 ###
 登錄頁：https://honghongliangzh.github.io/webside-demo-with-bootstrap-4/signin.html
